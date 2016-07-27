@@ -1,3 +1,5 @@
+/* This portion will affect the entire website */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -5,6 +7,10 @@
 
 body {
     background-image: url(images/background-image3.jpg);
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* This portion affects the navigation buttons */
@@ -39,6 +45,8 @@ body {
 
 /* This section will affect the Home page */
 
+/* This section still affects the Home page, specifically, the sidebar section */
+
 .sidebar {
     width: 250px;
     height: 600px;
@@ -49,16 +57,6 @@ body {
     margin: 15px;
 }
 
-.mens img, .ladies img, .childrens img {
-    width: 100px;
-}
-
-.mens, .ladies, .childrens {
-    float: right;
-    margin: 10px 20px;
-}
-
-
 .sidebar img {
     width: 200px;
     height: 250px;
@@ -68,6 +66,7 @@ body {
     /* background-color: coral */;
 }
 
+/* This section still affects the Home page, specifically, the main content section */
 .content {
     width: 700px;
     height: 600px;
@@ -84,8 +83,13 @@ body {
     width: 100;
 }
 
-h1 {
-    font-family: 'Roboto Condensed', sans-serif;
+.mens img, .ladies img, .childrens img {
+    width: 100px;
+}
+
+.mens, .ladies, .childrens {
+    float: right;
+    margin: 10px 20px;
 }
 
 /* This section affects the Contact Us page */
@@ -94,7 +98,9 @@ h1 {
     margin: 100px;
 }
 
-
+#content h2 {
+    color: purple;
+}
 
 /* This section affects the About Us page */
 .contact-about {
